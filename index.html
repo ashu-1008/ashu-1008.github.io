@@ -6,21 +6,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300&display=swap" rel="stylesheet">
 </head>
 
-<!-- <body onload='remove_loader()'> -->
-<body>
+<body onload='remove_loader()'>
+    <!-- <body> -->
     <div class="loader_main" id="loader_main">
         <div class="center_div">
-            <div class="rot">
-            </div>
+            <div class="rot"></div>
             <h1>loading</h1>
 
         </div>
     </div>
-    <!-- <nav class="header">
+    <nav class="header">
+        <ul>
+            <li>Menu</li>
+            <li>AUDIO &nbsp;PLAYER</li>
+            <li>Search</li>
+        </ul>
+    </nav>
+    <div class="media_player">
+        <div class="player">
+            <audio class = "main_player" controls preload="auto" src="songs/EMIWAY-SAMAJH MEIN AAYA KYA.mp3">
+            </audio>
+        </div>
+    </div>
 
-    </nav> -->
+    <div class="song_carousal">
+
+    </div>
     <script src="index.js"></script>
 </body>
 
